@@ -15,7 +15,7 @@ import WebKit
 internal class ReCaptchaWebViewManager {
     /** The `webView` delegate object that performs execution uppon script loading
      */
-    fileprivate class WebViewDelegate: NSObject, WKNavigationDelegate {
+    private class WebViewDelegate: NSObject, WKNavigationDelegate {
         struct Constants {
             /// The host that loaded requests should have
             static let apiURLHost = "www.google.com"
@@ -141,7 +141,7 @@ internal class ReCaptchaWebViewManager {
     fileprivate var endpoint: String
 
     /// The `webView` delegate implementation
-    fileprivate lazy var webviewDelegate: WebViewDelegate = {
+    private lazy var webviewDelegate: WebViewDelegate = {
         WebViewDelegate(manager: self)
     }()
 

@@ -1,0 +1,335 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXFileReference section */
+		D137C6852149A74C00A4A236 /* recaptcha.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = recaptcha.html; sourceTree = "<group>"; };
+		D137C6872149A74C00A4A236 /* ReCaptchaDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReCaptchaDecoder.swift; sourceTree = "<group>"; };
+		D137C6882149A74C00A4A236 /* DispatchQueue+Throttle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DispatchQueue+Throttle.swift"; sourceTree = "<group>"; };
+		D137C6892149A74C00A4A236 /* ReCaptchaWebViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReCaptchaWebViewManager.swift; sourceTree = "<group>"; };
+		D137C68A2149A74C00A4A236 /* ReCaptcha+ObjC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReCaptcha+ObjC.swift"; sourceTree = "<group>"; };
+		D137C68B2149A74C00A4A236 /* String+Dict.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Dict.swift"; sourceTree = "<group>"; };
+		D137C68C2149A74C00A4A236 /* ReCaptchaError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReCaptchaError.swift; sourceTree = "<group>"; };
+		D137C68E2149A74C00A4A236 /* ReCaptcha+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReCaptcha+Rx.swift"; sourceTree = "<group>"; };
+		D137C68F2149A74C00A4A236 /* ReCaptcha.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReCaptcha.swift; sourceTree = "<group>"; };
+		D137C6902149A74C00A4A236 /* ReCaptchaResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReCaptchaResult.swift; sourceTree = "<group>"; };
+		D137C6952149A8C600A4A236 /* ReCaptcha-Votem-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ReCaptcha-Votem-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D137C6922149A8C600A4A236 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D137C67D2149A72C00A4A236 = {
+			isa = PBXGroup;
+			children = (
+				D137C6842149A74C00A4A236 /* Assets */,
+				D137C6862149A74C00A4A236 /* Classes */,
+				D137C6962149A8C600A4A236 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D137C6842149A74C00A4A236 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				D137C6852149A74C00A4A236 /* recaptcha.html */,
+			);
+			name = Assets;
+			path = ../ReCaptcha/Assets;
+			sourceTree = "<group>";
+		};
+		D137C6862149A74C00A4A236 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D137C6872149A74C00A4A236 /* ReCaptchaDecoder.swift */,
+				D137C6882149A74C00A4A236 /* DispatchQueue+Throttle.swift */,
+				D137C6892149A74C00A4A236 /* ReCaptchaWebViewManager.swift */,
+				D137C68A2149A74C00A4A236 /* ReCaptcha+ObjC.swift */,
+				D137C68B2149A74C00A4A236 /* String+Dict.swift */,
+				D137C68C2149A74C00A4A236 /* ReCaptchaError.swift */,
+				D137C68D2149A74C00A4A236 /* Rx */,
+				D137C68F2149A74C00A4A236 /* ReCaptcha.swift */,
+				D137C6902149A74C00A4A236 /* ReCaptchaResult.swift */,
+			);
+			name = Classes;
+			path = ../ReCaptcha/Classes;
+			sourceTree = "<group>";
+		};
+		D137C68D2149A74C00A4A236 /* Rx */ = {
+			isa = PBXGroup;
+			children = (
+				D137C68E2149A74C00A4A236 /* ReCaptcha+Rx.swift */,
+			);
+			path = Rx;
+			sourceTree = "<group>";
+		};
+		D137C6962149A8C600A4A236 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D137C6952149A8C600A4A236 /* ReCaptcha-Votem-Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D137C6942149A8C600A4A236 /* ReCaptcha-Votem-Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D137C69B2149A8C600A4A236 /* Build configuration list for PBXNativeTarget "ReCaptcha-Votem-Tests" */;
+			buildPhases = (
+				D137C6912149A8C600A4A236 /* Sources */,
+				D137C6922149A8C600A4A236 /* Frameworks */,
+				D137C6932149A8C600A4A236 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ReCaptcha-Votem-Tests";
+			productName = "ReCaptcha-Votem-Tests";
+			productReference = D137C6952149A8C600A4A236 /* ReCaptcha-Votem-Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D137C67E2149A72C00A4A236 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				TargetAttributes = {
+					D137C6942149A8C600A4A236 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = D137C6812149A72C00A4A236 /* Build configuration list for PBXProject "ReCaptcha-Votem" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D137C67D2149A72C00A4A236;
+			productRefGroup = D137C6962149A8C600A4A236 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D137C6942149A8C600A4A236 /* ReCaptcha-Votem-Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D137C6932149A8C600A4A236 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D137C6912149A8C600A4A236 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D137C6822149A72C00A4A236 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		D137C6832149A72C00A4A236 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		D137C69C2149A8C600A4A236 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 3AB797WV7V;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "ReCaptcha-Votem-Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.votem.ReCaptcha-Votem-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D137C69D2149A8C600A4A236 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 3AB797WV7V;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "ReCaptcha-Votem-Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.votem.ReCaptcha-Votem-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D137C6812149A72C00A4A236 /* Build configuration list for PBXProject "ReCaptcha-Votem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D137C6822149A72C00A4A236 /* Debug */,
+				D137C6832149A72C00A4A236 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D137C69B2149A8C600A4A236 /* Build configuration list for PBXNativeTarget "ReCaptcha-Votem-Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D137C69C2149A8C600A4A236 /* Debug */,
+				D137C69D2149A8C600A4A236 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D137C67E2149A72C00A4A236 /* Project object */;
+}

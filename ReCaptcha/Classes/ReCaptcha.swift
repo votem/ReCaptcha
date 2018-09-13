@@ -12,7 +12,7 @@ import WebKit
 
 /**
 */
-public class ReCaptcha {
+public class ReCaptcha:NSObject {
     fileprivate struct Constants {
         struct InfoDictKeys {
             static let APIKey = "ReCaptchaKey"
@@ -171,12 +171,10 @@ public class ReCaptcha {
         manager.validate(on: view)
     }
 
-
     /// Stops the execution of the webview
     public func stop() {
         manager.stop()
     }
-
 
     /**
      - parameter configure: A closure that receives an instance of `WKWebView` for configuration.
