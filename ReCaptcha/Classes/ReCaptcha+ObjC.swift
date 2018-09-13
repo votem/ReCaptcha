@@ -25,7 +25,7 @@ extension ReCaptcha {
         if (endpoint != "default") {
             realendpoint = .alternate
         }
-        self.init(apiKey: apiKey baseURL: baseURL, endpoint: realendpoint, locale:locale)
+        try! self.init(apiKey: apiKey, baseURL: baseURL, endpoint: realendpoint, locale:locale)
     }
     
     /**
